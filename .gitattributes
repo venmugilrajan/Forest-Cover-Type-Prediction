@@ -1,0 +1,2 @@
+forest_cover_model.pkl filter=lfs diff=lfs merge=lfs -text
+covtype.csv filter=lfs diff=lfs merge=lfs -text
