@@ -49,7 +49,24 @@ Most of the 10 continuous features were heavily skewed. A `PowerTransformer` was
 A comparison of five different models showed that **Random Forest** was the clear winner, with the highest weighted F1-score of over 0.90. Naive Bayes performed very poorly due to the nature of the data.
 
 -----
+### Distribution of Cover Types
+The dataset is highly imbalanced...
+![Distribution of Cover Types](images/class_distribution.png)
 
+### Feature Distributions
+...A `PowerTransformer` was applied to 8 of them...
+
+**Before Transformation:**
+![Feature Distributions Before Transformation](images/dist_before_transform.png)
+
+**After Transformation:**
+![Feature Distributions After Transformation](images/dist_after_transform.png)
+
+---
+
+## 🏆 Model Performance
+...**Random Forest** was the clear winner...
+![Model F1-Score Comparison](images/f1_comparison.png)
 ## ⚙️ Tech Stack
 
   * **Data Analysis:** `pandas`, `numpy`
